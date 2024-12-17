@@ -4,13 +4,7 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Soal 3
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. yield* digunakan untuk meneruskan semua nilai yang dihasilkan oleh Stream.periodic ke stream yang dihasilkan oleh getColor. Setiap kali Stream.periodic memancarkan nilai baru, nilai tersebut akan langsung dihasilkan oleh getColor juga.
+2. kode ini bertujuan untuk menghasilkan stream dari objek Color yang memancarkan warna baru setiap detik. Warna yang dipancarkan ditentukan oleh waktu yang telah berlalu dan akan berulang jika waktu melebihi jumlah warna yang tersedia dalam array colors.
