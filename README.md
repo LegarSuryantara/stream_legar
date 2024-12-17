@@ -12,3 +12,8 @@ Soal 3
 Soal 4 
 
  ![screenshoot](assets/001.gif)
+
+
+Soal 5
+
+1. Perbedaan antara listen dan await for terletak pada cara mereka menangani aliran data dari Stream. Metode listen digunakan untuk mendaftar ke Stream dan menerima data secara asinkron tanpa menghentikan eksekusi kode setelahnya, memungkinkan untuk terus menjalankan kode lain sambil menunggu data. Sebaliknya, await for digunakan dalam konteks fungsi async untuk menunggu dan memproses setiap item dari Stream secara berurutan, menghentikan eksekusi sampai data baru tersedia, sehingga lebih cocok untuk situasi di mana urutan pemrosesan penting.
