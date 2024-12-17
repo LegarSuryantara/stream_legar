@@ -13,7 +13,7 @@ class ColorStream {
     Colors.orange,
     Colors.cyan,
     Colors.greenAccent,
-    Colors.deepOrange,
+    Colors.lightGreen,
   ];
 
 }
